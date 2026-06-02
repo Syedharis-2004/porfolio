@@ -47,6 +47,14 @@ const projects = [
     github: "https://github.com/Syedharis-2004/FastApi-SAAS",
     demo: "https://fast-api-saas-d6ob.vercel.app/",
   },
+  {
+    title: "Crypto Intel Pro",
+    description: "A premium real-time cryptocurrency analytics dashboard built for a hackathon. Features live market data, price performance charts, market dominance visualization, volatility index, and a searchable asset table — all powered by the CoinGecko API.",
+    image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
+    tags: ["HTML", "CSS", "JavaScript", "Chart.js", "CoinGecko API"],
+    github: "https://github.com/Syedharis-2004",
+    demo: "https://crypto-smit-hackathon-dun.vercel.app/",
+  },
 ];
 
 const container = {
