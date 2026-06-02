@@ -44,8 +44,8 @@ const projects = [
     description: "A scalable SaaS application providing REST APIs, robust JWT authentication, and automated Docker deployment pipelines.",
     image: "https://images.unsplash.com/photo-1667372393119-3d4c48d07fc9?auto=format&fit=crop&q=80&w=800",
     tags: ["FastAPI", "Docker", "PostgreSQL", "CI/CD"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/Syedharis-2004/FastApi-SAAS",
+    demo: "https://fast-api-saas-d6ob.vercel.app/",
   },
 ];
 
