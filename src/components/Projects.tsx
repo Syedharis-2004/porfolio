@@ -13,7 +13,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
     tags: ["Next.js", "OpenAI API", "Python", "Tailwind CSS"],
     github: "https://github.com/Syedharis-2004/ai-solver",
-    demo: "https://ai-solver-ten.vercel.app",
+    demo: "https://ai-assingment-solver.vercel.app/",
   },
   {
     title: "Blood Donation Management System",
