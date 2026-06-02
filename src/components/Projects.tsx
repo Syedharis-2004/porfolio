@@ -66,8 +66,11 @@ const item = {
 
 export function Projects() {
   return (
-    <section id="projects" className="py-24 bg-muted/50">
-      <div className="container mx-auto px-4 md:px-6">
+    <section id="projects" className="py-24 relative overflow-hidden">
+      {/* Background Gradients */}
+      <div className="absolute top-0 left-0 w-96 h-96 bg-primary/20 rounded-full blur-[100px] -z-10" />
+      <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent/20 rounded-full blur-[100px] -z-10" />
+      <div className="container mx-auto px-4 md:px-6 relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -75,8 +78,8 @@ export function Projects() {
           transition={{ duration: 0.5 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Featured Projects</h2>
-          <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-6" />
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient">Featured Projects</h2>
+          <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
             A selection of my best work across full-stack development, AI integrations, and data science.
           </p>
@@ -93,7 +96,7 @@ export function Projects() {
             <motion.div
               key={index}
               variants={item}
-              className="bg-background rounded-2xl border border-border overflow-hidden group hover:border-primary/50 transition-colors"
+              className="bg-white/5 backdrop-blur-lg rounded-2xl border border-white/10 overflow-hidden group hover:border-primary/50 hover:shadow-2xl hover:shadow-primary/20 transition-all duration-300 flex flex-col"
             >
               <div className="relative h-48 w-full overflow-hidden">
                 <div className="absolute inset-0 bg-primary/20 group-hover:bg-transparent transition-colors z-10" />
@@ -109,28 +112,28 @@ export function Projects() {
                 <p className="text-muted-foreground text-sm mb-4 line-clamp-3">
                   {project.description}
                 </p>
-                <div className="flex flex-wrap gap-2 mb-6">
+                <div className="flex flex-wrap gap-2 mb-6 mt-auto">
                   {project.tags.map((tag) => (
                     <span
                       key={tag}
-                      className="text-xs font-medium px-2.5 py-1 bg-secondary text-secondary-foreground rounded-full"
+                      className="text-xs font-medium px-2.5 py-1 bg-primary/10 text-primary-foreground border border-primary/20 rounded-full"
                     >
                       {tag}
                     </span>
                   ))}
                 </div>
-                <div className="flex items-center gap-4">
+                <div className="flex items-center gap-3">
                   <Link
                     href={project.github}
                     target="_blank"
-                    className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+                    className="flex-1 flex justify-center items-center gap-2 text-sm font-medium hover:text-white transition-colors bg-white/5 px-4 py-2.5 rounded-xl hover:bg-white/10 border border-white/10"
                   >
                     <FaGithub className="w-4 h-4" /> Code
                   </Link>
                   <Link
                     href={project.demo}
                     target="_blank"
-                    className="flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors"
+                    className="flex-1 flex justify-center items-center gap-2 text-sm font-medium hover:text-white transition-all bg-gradient-to-r from-primary to-accent text-white px-4 py-2.5 rounded-xl shadow-lg hover:shadow-primary/50 hover:scale-[1.02]"
                   >
                     <ExternalLink className="w-4 h-4" /> Live Demo
                   </Link>
