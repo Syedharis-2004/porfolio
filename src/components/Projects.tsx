@@ -55,6 +55,14 @@ const projects = [
     github: "https://github.com/Syedharis-2004",
     demo: "https://crypto-smit-hackathon-dun.vercel.app/",
   },
+  {
+    title: "Campaign Analytics Dashboard",
+    description: "A full-featured marketing campaign analytics dashboard built with React. Provides real-time insights into campaign performance, conversion rates, audience engagement metrics, and ROI tracking — all in a clean, interactive UI.",
+    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
+    tags: ["React", "Vite", "Tailwind CSS", "Recharts", "JavaScript"],
+    github: "https://github.com/Syedharis-2004",
+    demo: "https://campaign-dashboard-orcin.vercel.app/",
+  },
 ];
 
 const container = {
