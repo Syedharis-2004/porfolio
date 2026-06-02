@@ -36,8 +36,8 @@ const projects = [
     description: "Interactive analytics dashboard providing Exploratory Data Analysis (EDA) reports, statistical modeling, and data visualizations.",
     image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=800",
     tags: ["Python", "Pandas", "Streamlit", "Plotly"],
-    github: "https://github.com",
-    demo: "https://demo.com",
+    github: "https://github.com/Syedharis-2004/Data-Science",
+    demo: "https://data-science-cqp5uk8eavduzqufltprqx.streamlit.app/",
   },
   {
     title: "Dockerized FastAPI SaaS",
