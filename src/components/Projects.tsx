@@ -21,7 +21,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1536856136534-bb679c52a9aa?auto=format&fit=crop&q=80&w=800",
     tags: ["React", "Node.js", "MongoDB", "Express"],
     github: "https://github.com",
-    demo: "https://demo.com",
+    demo: "https://blood-donation-flame-psi.vercel.app/",
   },
   {
     title: "E-Commerce MERN Platform",
@@ -29,7 +29,7 @@ const projects = [
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
     tags: ["MongoDB", "Express", "React", "Node.js", "Stripe"],
     github: "https://github.com",
-    demo: "https://demo.com",
+    demo: "https://ecommerce-blush-psi.vercel.app/",
   },
   {
     title: "Data Science Dashboard",
