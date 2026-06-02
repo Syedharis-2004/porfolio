@@ -16,16 +16,16 @@ export function Footer() {
               Building robust web applications, integrating AI solutions, and deriving insights from data. Let's build something amazing together.
             </p>
             <div className="flex gap-4">
-              <Link href="https://github.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://github.com/Syedharis-2004" className="text-muted-foreground hover:text-foreground transition-colors">
                 <FaGithub className="w-5 h-5" />
               </Link>
-              <Link href="https://linkedin.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://linkedin.com/in/syed-haris" className="text-muted-foreground hover:text-foreground transition-colors">
                 <FaLinkedin className="w-5 h-5" />
               </Link>
-              <Link href="https://twitter.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://wa.me/923131208384" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
                 <FaTwitter className="w-5 h-5" />
               </Link>
-              <Link href="mailto:hello@example.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="mailto:salizaidi459@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
                 <Mail className="w-5 h-5" />
               </Link>
             </div>
@@ -44,9 +44,9 @@ export function Footer() {
           <div>
             <h3 className="font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
-              <li className="text-sm text-muted-foreground">hello@example.com</li>
-              <li className="text-sm text-muted-foreground">+1 (555) 123-4567</li>
-              <li className="text-sm text-muted-foreground">San Francisco, CA</li>
+              <li className="text-sm text-muted-foreground">salizaidi459@gmail.com</li>
+              <li className="text-sm text-muted-foreground">+92 313 1208384</li>
+              <li className="text-sm text-muted-foreground">Karachi, Pakistan</li>
             </ul>
           </div>
         </div>

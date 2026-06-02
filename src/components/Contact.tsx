@@ -37,8 +37,8 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Email</p>
-                  <Link href="mailto:hello@example.com" className="text-lg hover:text-primary transition-colors">
-                    hello@example.com
+                  <Link href="mailto:salizaidi459@gmail.com" className="text-lg hover:text-primary transition-colors">
+                    salizaidi459@gmail.com
                   </Link>
                 </div>
               </div>
@@ -48,7 +48,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Phone</p>
-                  <p className="text-lg">+1 (555) 123-4567</p>
+                  <Link href="tel:+923131208384" className="text-lg hover:text-primary transition-colors">+92 313 1208384</Link>
                 </div>
               </div>
               <div className="flex items-center gap-4">
@@ -57,7 +57,7 @@ export function Contact() {
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground font-medium">Location</p>
-                  <p className="text-lg">San Francisco, CA</p>
+                  <p className="text-lg">Karachi, Pakistan</p>
                 </div>
               </div>
             </div>
@@ -70,7 +70,7 @@ export function Contact() {
                 Prefer instant messaging? Send me a direct message.
               </p>
               <Link
-                href="https://wa.me/15551234567"
+                href="https://wa.me/923131208384"
                 target="_blank"
                 className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#25D366] text-white font-medium rounded-lg hover:bg-[#128C7E] transition-colors"
               >
