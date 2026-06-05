@@ -25,13 +25,13 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-2xl font-semibold mb-4">
-              Bridging the Gap Between Web and AI
+              Driven by AI & Backend Development
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I am a dedicated Full Stack Developer and AI Engineer passionate about building scalable, intelligent systems. With expertise in modern web frameworks and machine learning algorithms, I specialize in crafting full-stack applications that leverage the power of Artificial Intelligence to solve complex, real-world problems.
+              I am a dedicated AI & Backend Developer passionate about building robust backend architectures and scalable applications. I specialize in integrating Large Language Models (LLMs) into automation workflows and maintaining RESTful APIs using tools like FastAPI, Node.js, and Python.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              From designing intuitive user interfaces to architecting robust backend APIs and integrating custom AI models, my goal is to deliver end-to-end solutions that drive innovation. I continuously explore emerging technologies to stay at the forefront of the rapidly evolving AI and web development landscape.
+              My goal is to obtain an entry-level position or internship where I can apply my relevant skills to contribute to the success of the organization, while continuously gaining practical experience and professional knowledge. I thrive on problem-solving and exploring new technologies.
             </p>
           </motion.div>
 
@@ -43,19 +43,19 @@ export function About() {
             className="grid grid-cols-2 gap-6"
           >
             <div className="p-6 rounded-2xl bg-card border border-border flex flex-col items-center justify-center text-center shadow-sm">
-              <span className="text-4xl font-bold text-primary mb-2">5+</span>
+              <span className="text-4xl font-bold text-primary mb-2">1+</span>
               <span className="text-sm text-muted-foreground font-medium">Years of Experience</span>
             </div>
             <div className="p-6 rounded-2xl bg-card border border-border flex flex-col items-center justify-center text-center shadow-sm">
-              <span className="text-4xl font-bold text-primary mb-2">50+</span>
+              <span className="text-4xl font-bold text-primary mb-2">15+</span>
               <span className="text-sm text-muted-foreground font-medium">Projects</span>
             </div>
             <div className="p-6 rounded-2xl bg-card border border-border flex flex-col items-center justify-center text-center shadow-sm">
-              <span className="text-4xl font-bold text-primary mb-2">10+</span>
-              <span className="text-sm text-muted-foreground font-medium">AI Models</span>
+              <span className="text-4xl font-bold text-primary mb-2">4+</span>
+              <span className="text-sm text-muted-foreground font-medium">Certifications</span>
             </div>
             <div className="p-6 rounded-2xl bg-card border border-border flex flex-col items-center justify-center text-center shadow-sm">
-              <span className="text-4xl font-bold text-primary mb-2">1M+</span>
+              <span className="text-4xl font-bold text-primary mb-2">100k+</span>
               <span className="text-sm text-muted-foreground font-medium">Lines of Code</span>
             </div>
           </motion.div>

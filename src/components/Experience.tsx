@@ -5,24 +5,31 @@ import { Briefcase, GraduationCap, Calendar } from "lucide-react";
 
 const experiences = [
   {
-    title: "Senior Full Stack Developer",
-    company: "Freelance",
-    date: "2023 - Present",
-    description: "Developing custom web applications, SaaS platforms, and AI integrations for global clients. Tech stack includes Next.js, React, Node.js, and Python.",
+    title: "AI & Backend Developer",
+    company: "SmW Global PVT.LTD",
+    date: "April 2026 – Present",
+    description: "Developed scalable backend applications using FastAPI and Python. Integrated LLMs and AI APIs into workflows. Containerized apps with Docker.",
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
-    title: "Data Science Intern",
-    company: "Tech Analytics Corp",
-    date: "2022 - 2023",
-    description: "Built predictive models and interactive dashboards. Performed EDA on large datasets to derive actionable business insights.",
+    title: "Web Development Intern",
+    company: "Techon Venture",
+    date: "November 2025 – January 2026",
+    description: "Developed responsive web applications using the MEAN Stack. Designed modern user-friendly interfaces and integrated frontend with backend services.",
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
-    title: "Bachelor of Science in Computer Science",
-    company: "University of Technology",
-    date: "2019 - 2023",
-    description: "Specialized in Artificial Intelligence and Software Engineering. Graduated with Honors.",
+    title: "Bachelors of Science in Computer Sciences",
+    company: "ILMA University, Karachi",
+    date: "2022 — 2025",
+    description: "Pursuing higher education with a focus on core computer science subjects.",
+    icon: <GraduationCap className="w-5 h-5" />,
+  },
+  {
+    title: "Higher Secondary Certificate in Pre-engineering",
+    company: "Superior Science and Commerce College, Karachi",
+    date: "Jan 2020 — Jan 2021",
+    description: "Completed college education with a focus on Pre-engineering subjects.",
     icon: <GraduationCap className="w-5 h-5" />,
   },
 ];

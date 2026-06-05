@@ -37,9 +37,9 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.1 }}
         >
-          Full Stack Developer <br />
+          Hi, I'm <br className="md:hidden" />
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-blue-500">
-            & AI Engineer
+            Syed Haris Ali Zaidi
           </span>
         </motion.h1>
 
@@ -49,7 +49,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          I build scalable web applications, design intelligent AI systems, and extract insights from complex data. Let's create something extraordinary together.
+          AI & Backend Developer looking for opportunities to apply my skills to contribute to the success of an organization while gaining practical experience and professional knowledge.
         </motion.p>
 
         <motion.div 
