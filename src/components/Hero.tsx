@@ -58,10 +58,18 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.3 }}
         >
-          <Button size="lg" className="gap-2">
+          <Button 
+            size="lg" 
+            className="gap-2"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             Hire Me <ArrowRight className="w-4 h-4" />
           </Button>
-          <Button variant="outline" size="lg">
+          <Button 
+            variant="outline" 
+            size="lg"
+            onClick={() => document.getElementById('projects')?.scrollIntoView({ behavior: 'smooth' })}
+          >
             View Projects
           </Button>
         </motion.div>
