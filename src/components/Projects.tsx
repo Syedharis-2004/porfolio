@@ -8,6 +8,14 @@ import Image from "next/image";
 
 const projects = [
   {
+    title: "ClaimWise AI - Insurance Claim Co-Pilot",
+    description: "A production-ready multimodal AI platform for automated insurance claim intake, image-based damage triage with Grad-CAM explainability, fraud risk assessment, and interactive ROI metrics.",
+    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
+    tags: ["Angular", "FastAPI", "Python", "Bootstrap 5", "PostgreSQL"],
+    github: "https://github.com/Syedharis-2004/Insurance-Claim-Processing-Co-Pilot",
+    demo: "https://insurance-claim-co-pilot.vercel.app/",
+  },
+  {
     title: "AI Assignment Solver",
     description: "An intelligent platform that solves assignments from PDF uploads using Gemini/OpenAI integration, featuring highly accurate OCR and step-by-step explanations.",
     image: "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800",
