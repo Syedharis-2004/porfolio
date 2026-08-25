@@ -7,6 +7,15 @@ import Link from "next/link";
 import Image from "next/image";
 
 const projects = [
+   {
+  title: "PakLaw AI - AI-Powered Legal Research & RAG Assistant",
+  description: "AI-powered legal research assistant using Retrieval-Augmented Generation (RAG) to search, retrieve, and provide context-aware answers from Pakistani legal documents and case law.",
+  image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=800",
+  tags: ["Angular", "FastAPI", "Python", "RAG", "LLMs", "Qdrant", "BGE-M3", "PostgreSQL"],
+  github: "https://github.com/Syedharis-2004/Pak-Law-RAG",
+  demo: "https://pak-law-rag.vercel.app/"
+},
+
   {
     title: "ClaimWise AI - Insurance Claim Co-Pilot",
     description: "A production-ready multimodal AI platform for automated insurance claim intake, image-based damage triage with Grad-CAM explainability, fraud risk assessment, and interactive ROI metrics.",
