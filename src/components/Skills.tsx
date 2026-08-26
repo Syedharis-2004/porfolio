@@ -1,43 +1,64 @@
 "use client";
 
 import { motion } from 'framer-motion';
-import { Layers, Server, Database, BrainCircuit, Terminal, Wrench } from 'lucide-react';
+import { Code2, Layers, Server, Database, BrainCircuit, Bot, Library, Terminal, Wrench } from 'lucide-react';
 
 const skillCategories = [
+  {
+    title: "Programming Languages",
+    icon: <Code2 className="w-6 h-6" />,
+    color: "from-sky-500/20 to-blue-500/20 border-sky-500/20 hover:border-sky-500/50",
+    iconBg: "bg-sky-500/10 text-sky-400",
+    skills: ["Python", "JavaScript", "TypeScript", "SQL"]
+  },
   {
     title: "Frontend Development",
     icon: <Layers className="w-6 h-6" />,
     color: "from-blue-500/20 to-indigo-500/20 border-blue-500/20 hover:border-blue-500/50",
     iconBg: "bg-blue-500/10 text-blue-400",
-    skills: ["HTML5", "CSS3", "JavaScript", "Angular CLI", "React.js", "Tailwind CSS", "Responsive Design"]
+    skills: ["HTML5", "CSS3", "JavaScript", "Angular", "Bootstrap"]
   },
   {
     title: "Backend Development",
     icon: <Server className="w-6 h-6" />,
     color: "from-violet-500/20 to-purple-500/20 border-violet-500/20 hover:border-violet-500/50",
     iconBg: "bg-violet-500/10 text-violet-400",
-    skills: ["Node.js", "FastAPI", "Python", "Express.js", "RESTful APIs", "Authentication"]
+    skills: ["Python", "FastAPI", "Node.js", "Express.js", "RESTful APIs"]
   },
   {
     title: "Databases",
     icon: <Database className="w-6 h-6" />,
     color: "from-cyan-500/20 to-teal-500/20 border-cyan-500/20 hover:border-cyan-500/50",
     iconBg: "bg-cyan-500/10 text-cyan-400",
-    skills: ["MongoDB", "SQL", "PostgreSQL", "NoSQL", "Database Schemas"]
+    skills: ["MongoDB", "PostgreSQL", "SQLite", "SQL"]
   },
   {
     title: "AI & Data Science",
     icon: <BrainCircuit className="w-6 h-6" />,
     color: "from-emerald-500/20 to-green-500/20 border-emerald-500/20 hover:border-emerald-500/50",
     iconBg: "bg-emerald-500/10 text-emerald-400",
-    skills: ["AI & Machine Learning", "Data Science", "Exploratory Data Analysis (EDA)", "Large Language Models (LLMs)"]
+    skills: ["Machine Learning", "Exploratory Data Analysis (EDA)", "Data Visualization", "LLM Integration", "Prompt Engineering", "Generative AI", "RAG", "AI Agents", "AI Automation"]
+  },
+  {
+    title: "Automation & AI Tools",
+    icon: <Bot className="w-6 h-6" />,
+    color: "from-fuchsia-500/20 to-pink-500/20 border-fuchsia-500/20 hover:border-fuchsia-500/50",
+    iconBg: "bg-fuchsia-500/10 text-fuchsia-400",
+    skills: ["Make (Make.com)", "Claude", "ChatGPT", "Google Gemini", "AI Coding Agents"]
+  },
+  {
+    title: "Python Libraries & Frameworks",
+    icon: <Library className="w-6 h-6" />,
+    color: "from-yellow-500/20 to-amber-500/20 border-yellow-500/20 hover:border-yellow-500/50",
+    iconBg: "bg-yellow-500/10 text-yellow-400",
+    skills: ["FastAPI", "Pandas", "NumPy", "Scikit-learn", "TensorFlow", "Keras", "OpenCV", "Matplotlib", "Seaborn"]
   },
   {
     title: "Tools & Technologies",
     icon: <Terminal className="w-6 h-6" />,
     color: "from-orange-500/20 to-amber-500/20 border-orange-500/20 hover:border-orange-500/50",
     iconBg: "bg-orange-500/10 text-orange-400",
-    skills: ["Docker", "Git", "GitHub", "Vercel", "VS Code", "Postman"]
+    skills: ["Docker", "Git", "GitHub", "Postman", "OpenAPI (Swagger)", "JWT Authentication"]
   },
   {
     title: "Certifications",

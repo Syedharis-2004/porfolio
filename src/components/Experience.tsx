@@ -7,7 +7,7 @@ const experiences = [
   {
     title: "AI & Backend Developer",
     company: "SmW Global PVT.LTD",
-    date: "April 2026 – Present",
+    date: "April 2026 – August 2026",
     description: "Developed scalable backend applications using FastAPI and Python. Integrated LLMs and AI APIs into workflows. Containerized apps with Docker.",
     icon: <Briefcase className="w-5 h-5" />,
   },
