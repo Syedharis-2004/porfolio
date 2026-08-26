@@ -16,7 +16,7 @@ const skillCategories = [
     icon: <Layers className="w-6 h-6" />,
     color: "from-blue-500/20 to-indigo-500/20 border-blue-500/20 hover:border-blue-500/50",
     iconBg: "bg-blue-500/10 text-blue-400",
-    skills: ["HTML5", "CSS3", "JavaScript", "Angular", "Bootstrap"]
+    skills: ["HTML5", "CSS3", "JavaScript", "Angular", "Bootstrap", "React.js", "Next.js", "Tailwind CSS"]
   },
   {
     title: "Backend Development",
