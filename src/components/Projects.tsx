@@ -7,7 +7,15 @@ import Link from "next/link";
 import Image from "next/image";
 
 const projects = [
-   {
+  {
+    title: "CodeRunner Cloud - SaaS Code Execution Platform",
+    description: "A production-deployed SaaS platform for secure, sandboxed code execution in 4 languages (Python, Node.js, Go, C). Features JWT auth with RBAC, 4 subscription tiers, SafePay payment integration, per-user quota tracking, a full admin dashboard, and a developer REST API with API key authentication.",
+    image: "https://images.unsplash.com/photo-1629654297299-c8506221ca97?auto=format&fit=crop&q=80&w=800",
+    tags: ["FastAPI", "PostgreSQL", "Angular 19", "Docker", "SQLAlchemy", "SafePay API", "Alembic", "SlowAPI"],
+    github: "https://github.com/Syedharis-2004/coderunner-cloud",
+    demo: "https://coderunner-cloud.vercel.app",
+  },
+  {
   title: "PakLaw AI - AI-Powered Legal Research & RAG Assistant",
   description: "AI-powered legal research assistant using Retrieval-Augmented Generation (RAG) to search, retrieve, and provide context-aware answers from Pakistani legal documents and case law.",
   image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&q=80&w=800",
