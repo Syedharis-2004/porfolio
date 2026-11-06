@@ -49,7 +49,7 @@ export function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
         >
-          AI & Backend Developer looking for opportunities to apply my skills to contribute to the success of an organization while gaining practical experience and professional knowledge.
+          AI Engineer and Backend Developer specializing in building AI-powered applications, scalable backend architectures, and intelligent automation workflows with FastAPI, Node.js, RAG, and AI agents.
         </motion.p>
 
         <motion.div 

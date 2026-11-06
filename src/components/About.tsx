@@ -25,13 +25,13 @@ export function About() {
             transition={{ duration: 0.5, delay: 0.2 }}
           >
             <h3 className="text-2xl font-semibold mb-4">
-              Driven by AI & Backend Development
+              AI Engineer & Scalable Backend Specialist
             </h3>
             <p className="text-muted-foreground mb-6 leading-relaxed">
-              I am a dedicated AI & Backend Developer passionate about building robust backend architectures and scalable applications. I specialize in integrating Large Language Models (LLMs) into automation workflows and maintaining RESTful APIs using tools like FastAPI, Node.js, and Python.
+              I am an AI Engineer and Backend Developer with hands-on experience in building AI-powered applications, scalable backend systems, and intelligent automation workflows. I specialize in Python, FastAPI, Node.js, Large Language Model (LLM) integration, Retrieval-Augmented Generation (RAG), and AI agents.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              My goal is to obtain an entry-level position or internship where I can apply my relevant skills to contribute to the success of the organization, while continuously gaining practical experience and professional knowledge. I thrive on problem-solving and exploring new technologies.
+              Experienced in developing full-stack AI applications, integrating AI voice agents, designing robust database schemas, and building n8n automation pipelines. I focus on delivering practical, scalable AI solutions that streamline workflows and solve mission-critical real-world problems.
             </p>
           </motion.div>
 

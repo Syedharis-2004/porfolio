@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Full Stack Developer | AI Engineer | Data Scientist",
-  description: "Professional portfolio showcasing Full Stack Development, AI integration, and Data Science projects.",
-  keywords: ["Full Stack Developer", "AI Engineer", "Data Scientist", "Portfolio", "Next.js", "React"],
+  title: "Syed Haris Ali Zaidi | AI Engineer & Backend Developer",
+  description: "Portfolio of Syed Haris Ali Zaidi — AI Engineer & Backend Developer specializing in LLM Integration, RAG Systems, AI Agents, n8n Automation, and Scalable Backend Architectures.",
+  keywords: ["AI Engineer", "Backend Developer", "Python", "FastAPI", "RAG", "AI Agents", "n8n", "Node.js", "Syed Haris Ali Zaidi", "Portfolio"],
 };
 
 export default function RootLayout({

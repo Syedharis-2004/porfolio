@@ -1,28 +1,28 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Code2, Users, Trophy, Coffee } from "lucide-react";
+import { Code2, Trophy, Award, GitCommit } from "lucide-react";
 
 const stats = [
   {
     label: "Projects Completed",
-    value: "50+",
+    value: "15+",
     icon: <Trophy className="w-6 h-6" />,
   },
   {
-    label: "Happy Clients",
-    value: "30+",
-    icon: <Users className="w-6 h-6" />,
-  },
-  {
-    label: "Technologies",
-    value: "15+",
+    label: "Technologies & Tools",
+    value: "20+",
     icon: <Code2 className="w-6 h-6" />,
   },
   {
-    label: "Cups of Coffee",
-    value: "1000+",
-    icon: <Coffee className="w-6 h-6" />,
+    label: "Professional Certifications",
+    value: "4",
+    icon: <Award className="w-6 h-6" />,
+  },
+  {
+    label: "Git Commits & Deployments",
+    value: "500+",
+    icon: <GitCommit className="w-6 h-6" />,
   },
 ];
 

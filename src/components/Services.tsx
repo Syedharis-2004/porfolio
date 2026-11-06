@@ -1,38 +1,38 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Server, Layout, BrainCircuit, Database, Blocks, TerminalSquare } from "lucide-react";
+import { Server, BrainCircuit, Database, Bot, Mic, Workflow } from "lucide-react";
 
 const services = [
   {
-    title: "Full Stack Development",
-    description: "End-to-end web application development using modern frameworks like Next.js, React, and Node.js.",
-    icon: <Layout className="w-8 h-8" />,
+    title: "AI Agents & Workflow Automation",
+    description: "Designing and deploying intelligent n8n and Make.com workflow automations connecting APIs, services, and autonomous AI agents to streamline business operations.",
+    icon: <Workflow className="w-8 h-8" />,
   },
   {
-    title: "MERN Stack Solutions",
-    description: "Robust, scalable single-page applications built on MongoDB, Express.js, React, and Node.js.",
-    icon: <Blocks className="w-8 h-8" />,
-  },
-  {
-    title: "AI Integrations",
-    description: "Integrating LLMs (OpenAI, Gemini) and machine learning models into web platforms to automate tasks.",
+    title: "RAG & LLM Integration",
+    description: "Building production Retrieval-Augmented Generation (RAG) systems for context-aware knowledge retrieval and integrating LLMs (Gemini, Claude, GPT) into backend services.",
     icon: <BrainCircuit className="w-8 h-8" />,
   },
   {
-    title: "RESTful APIs",
-    description: "Designing and developing secure, fast, and documented APIs using Express.js and FastAPI.",
+    title: "AI Voice & Conversational Agents",
+    description: "Developing intelligent voice and conversational AI agents for real-time interactions, automated phone calls, and customer communication workflows.",
+    icon: <Mic className="w-8 h-8" />,
+  },
+  {
+    title: "Scalable Backend Architectures",
+    description: "Engineering robust, high-throughput RESTful APIs with Python FastAPI and Node.js/Express with JWT auth, data validation, and clean architecture principles.",
     icon: <Server className="w-8 h-8" />,
   },
   {
-    title: "Data Science Solutions",
-    description: "Exploratory Data Analysis, predictive modeling, and insightful data visualizations using Python.",
-    icon: <Database className="w-8 h-8" />,
+    title: "Computer Vision & ML Solutions",
+    description: "Developing custom machine learning models, damage severity analysis, and image classification systems using TensorFlow, Keras, OpenCV, and Scikit-learn.",
+    icon: <Bot className="w-8 h-8" />,
   },
   {
-    title: "Docker & DevOps",
-    description: "Containerizing applications and setting up continuous integration and deployment pipelines.",
-    icon: <TerminalSquare className="w-8 h-8" />,
+    title: "Database Design & Dockerization",
+    description: "Designing optimized SQL (PostgreSQL) and NoSQL (MongoDB) schemas and containerizing backend microservices with Docker for reliable production deployments.",
+    icon: <Database className="w-8 h-8" />,
   },
 ];
 
@@ -65,7 +65,7 @@ export function Services() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Services I Offer</h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Comprehensive solutions tailored to your business needs, from stunning frontends to robust AI-powered backends.
+            Comprehensive solutions tailored to modernize your business, from autonomous AI agents and RAG pipelines to high-performance backend architectures.
           </p>
         </motion.div>
 

@@ -54,10 +54,10 @@ export function Navbar() {
             ))}
           </ul>
           <div className="flex items-center gap-4 border-l border-border pl-6">
-            <Link href="https://github.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://github.com/Syedharis-2004" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
               <FaGithub className="w-5 h-5" />
             </Link>
-            <Link href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+            <Link href="https://linkedin.com/in/syed-haris" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn">
               <FaLinkedin className="w-5 h-5" />
             </Link>
           </div>
@@ -94,10 +94,10 @@ export function Navbar() {
                 </li>
               ))}
               <div className="flex items-center gap-4 pt-4 border-t border-border">
-                <Link href="https://github.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="https://github.com/Syedharis-2004" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
                   <FaGithub className="w-5 h-5" />
                 </Link>
-                <Link href="https://linkedin.com" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors">
+                <Link href="https://linkedin.com/in/syed-haris" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn">
                   <FaLinkedin className="w-5 h-5" />
                 </Link>
               </div>

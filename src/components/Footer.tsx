@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Mail, Heart } from "lucide-react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaWhatsapp } from "react-icons/fa";
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
@@ -13,19 +13,19 @@ export function Footer() {
               <span className="text-gradient">Portfolio</span>.
             </Link>
             <p className="text-muted-foreground mb-4 max-w-sm">
-              Building robust web applications, integrating AI solutions, and deriving insights from data. Let's build something amazing together.
+              AI Engineer and Backend Developer building practical, scalable AI solutions, RAG pipelines, and intelligent automation workflows. Let's build something amazing together.
             </p>
             <div className="flex gap-4">
-              <Link href="https://github.com/Syedharis-2004" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://github.com/Syedharis-2004" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="GitHub">
                 <FaGithub className="w-5 h-5" />
               </Link>
-              <Link href="https://linkedin.com/in/syed-haris" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="https://linkedin.com/in/syed-haris" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="LinkedIn">
                 <FaLinkedin className="w-5 h-5" />
               </Link>
-              <Link href="https://wa.me/923131208384" target="_blank" className="text-muted-foreground hover:text-foreground transition-colors">
-                <FaTwitter className="w-5 h-5" />
+              <Link href="https://wa.me/923131208384" target="_blank" rel="noreferrer" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="WhatsApp">
+                <FaWhatsapp className="w-5 h-5" />
               </Link>
-              <Link href="mailto:salizaidi459@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors">
+              <Link href="mailto:salizaidi459@gmail.com" className="text-muted-foreground hover:text-foreground transition-colors" aria-label="Email">
                 <Mail className="w-5 h-5" />
               </Link>
             </div>

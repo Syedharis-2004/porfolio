@@ -44,7 +44,7 @@ const skillCategories = [
     icon: <Bot className="w-6 h-6" />,
     color: "from-fuchsia-500/20 to-pink-500/20 border-fuchsia-500/20 hover:border-fuchsia-500/50",
     iconBg: "bg-fuchsia-500/10 text-fuchsia-400",
-    skills: ["Make (Make.com)", "Claude", "ChatGPT", "Google Gemini", "AI Coding Agents"]
+    skills: ["n8n", "Make (Make.com)", "Claude", "ChatGPT", "Google Gemini", "AI Coding Agents"]
   },
   {
     title: "Python Libraries & Frameworks",
@@ -95,7 +95,7 @@ export function Skills() {
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-gradient">Technical Expertise</h2>
           <div className="w-20 h-1 bg-gradient-to-r from-primary to-accent mx-auto rounded-full mb-6" />
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            A full-stack developer with hands-on experience across web, backend, data science, and AI — building real products end-to-end.
+            An AI Engineer and Backend Developer with hands-on experience across AI agents, scalable backend systems, RAG pipelines, and intelligent automation workflows.
           </p>
         </motion.div>
 

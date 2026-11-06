@@ -5,31 +5,65 @@ import { Briefcase, GraduationCap, Calendar } from "lucide-react";
 
 const experiences = [
   {
+    title: "AI Engineer",
+    company: "SUCCESSLAB",
+    date: "October 2026 – November 2026",
+    description: "Designing and building AI automation solutions, context-aware RAG pipelines, voice agents, and full-stack AI applications.",
+    highlights: [
+      "Design and develop AI automation solutions to streamline business workflows and operational processes.",
+      "Build Retrieval-Augmented Generation (RAG) systems for context-aware knowledge retrieval.",
+      "Integrate Large Language Models (LLMs) into AI-powered applications and scalable backend services.",
+      "Design and build n8n workflow automations connecting APIs, microservices, and AI models.",
+      "Develop AI voice agents for conversational interactions and automated communication workflows."
+    ],
+    icon: <Briefcase className="w-5 h-5" />,
+  },
+  {
     title: "AI & Backend Developer",
     company: "SmW Global PVT.LTD",
     date: "April 2026 – August 2026",
-    description: "Developed scalable backend applications using FastAPI and Python. Integrated LLMs and AI APIs into workflows. Containerized apps with Docker.",
+    description: "Built scalable backend architectures using Python and FastAPI, integrated LLMs into production, and containerized microservices with Docker.",
+    highlights: [
+      "Developed scalable backend applications using Python and FastAPI following clean architecture principles.",
+      "Designed and implemented secure RESTful APIs for AI-powered web applications.",
+      "Integrated Large Language Models (LLMs) and AI APIs into production-ready applications and automation workflows.",
+      "Designed and optimized SQL and NoSQL database schemas to improve performance.",
+      "Containerized backend services using Docker for consistent development and deployment environments."
+    ],
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
     title: "Web Development Intern",
     company: "Techon Venture",
     date: "November 2025 – January 2026",
-    description: "Developed responsive web applications using the MEAN Stack. Designed modern user-friendly interfaces and integrated frontend with backend services.",
+    description: "Developed responsive web applications with the MEAN stack, created reusable components, and participated in full SDLC.",
+    highlights: [
+      "Developed responsive web applications using the MEAN Stack (MongoDB, Express.js, Angular, Node.js).",
+      "Built reusable frontend components and integrated them with backend REST APIs.",
+      "Designed responsive, user-friendly interfaces following modern UI/UX principles.",
+      "Debugged application issues and optimized cross-device performance."
+    ],
     icon: <Briefcase className="w-5 h-5" />,
   },
   {
     title: "Bachelors of Science in Computer Sciences",
     company: "ILMA University, Karachi",
     date: "2022 — 2025",
-    description: "Pursuing higher education with a focus on core computer science subjects.",
+    description: "Focused on core computer science subjects, algorithms, software engineering, and artificial intelligence.",
     icon: <GraduationCap className="w-5 h-5" />,
   },
   {
     title: "Higher Secondary Certificate in Pre-engineering",
     company: "Superior Science and Commerce College, Karachi",
     date: "Jan 2020 — Jan 2021",
-    description: "Completed college education with a focus on Pre-engineering subjects.",
+    description: "Completed intermediate education with an emphasis on Mathematics, Physics, and analytical reasoning.",
+    icon: <GraduationCap className="w-5 h-5" />,
+  },
+  {
+    title: "Secondary School Certificate in Science",
+    company: "Little Angels Grammar High School, Karachi",
+    date: "Jan 2018 — Jan 2019",
+    description: "Completed secondary education in Science with a strong foundation in computer studies and sciences.",
     icon: <GraduationCap className="w-5 h-5" />,
   },
 ];
@@ -97,6 +131,15 @@ export function Experience() {
                   <p className="text-muted-foreground mt-4 leading-relaxed">
                     {exp.description}
                   </p>
+                  {exp.highlights && exp.highlights.length > 0 && (
+                    <ul className="mt-4 space-y-2 text-sm text-muted-foreground/90 list-disc list-inside">
+                      {exp.highlights.map((highlight, hIndex) => (
+                        <li key={hIndex} className="leading-relaxed">
+                          {highlight}
+                        </li>
+                      ))}
+                    </ul>
+                  )}
                 </div>
               </div>
             </motion.div>

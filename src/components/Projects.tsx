@@ -26,12 +26,13 @@ const projects = [
 
   {
     title: "ClaimWise AI - Insurance Claim Co-Pilot",
-    description: "A production-ready multimodal AI platform for automated insurance claim intake, image-based damage triage with Grad-CAM explainability, fraud risk assessment, and interactive ROI metrics.",
+    description: "AI-powered Insurance Claim Processing Co-Pilot automating claim intake, damage severity analysis, fraud risk detection, and report generation. Features TensorFlow, Keras, and OpenCV for damage estimation, XAI transparent insights, and human-in-the-loop approval.",
     image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&q=80&w=800",
-    tags: ["Angular", "FastAPI", "Python", "Bootstrap 5", "PostgreSQL"],
+    tags: ["FastAPI", "Python", "Angular 20", "TensorFlow", "Keras", "OpenCV", "PostgreSQL", "Bootstrap 5"],
     github: "https://github.com/Syedharis-2004/Insurance-Claim-Processing-Co-Pilot",
     demo: "https://insurance-claim-co-pilot.vercel.app/",
   },
+  
   {
     title: "AI Assignment Solver",
     description: "An intelligent platform that solves assignments from PDF uploads using Gemini/OpenAI integration, featuring highly accurate OCR and step-by-step explanations.",
@@ -74,9 +75,9 @@ const projects = [
   },
   {
     title: "Real-Time Crypto Analytics Platform",
-    description: "A full-stack crypto analytics system built during the SMIT Hackathon. Features an automated ETL pipeline pulling live market data every 5 mins, and engineers features like Volatility Scores. Live auto-refreshing dashboard.",
+    description: "Production-ready cryptocurrency analytics platform engineered during the SMIT AI Hackathon. Features automated ETL pipelines fetching live crypto market data every 5 minutes, custom Volatility Score metrics, and an interactive auto-refreshing Streamlit dashboard containerized with Docker.",
     image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
-    tags: ["FastAPI", "PostgreSQL", "Chart.js", "Streamlit", "Docker"],
+    tags: ["FastAPI", "PostgreSQL", "Docker", "Streamlit", "Chart.js", "Python", "ETL"],
     github: "https://github.com/Syedharis-2004",
     demo: "https://crypto-smit-hackathon-dun.vercel.app/",
   },
