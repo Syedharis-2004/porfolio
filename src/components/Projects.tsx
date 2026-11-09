@@ -54,7 +54,7 @@ const projects = [
     description: "Full-featured e-commerce platform with secure authentication, cart functionality, payment gateway integration, and a complete admin panel.",
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?auto=format&fit=crop&q=80&w=800",
     tags: ["MongoDB", "Express", "React", "Node.js", "Stripe"],
-    github: "https://github.com",
+    github: "https://github.com/Syedharis-2004/clothing-E-commerce",
     demo: "https://clothing-psi-three.vercel.app/",
   },
   {
@@ -78,7 +78,7 @@ const projects = [
     description: "Production-ready cryptocurrency analytics platform engineered during the SMIT AI Hackathon. Features automated ETL pipelines fetching live crypto market data every 5 minutes, custom Volatility Score metrics, and an interactive auto-refreshing Streamlit dashboard containerized with Docker.",
     image: "https://images.unsplash.com/photo-1621761191319-c6fb62004040?auto=format&fit=crop&q=80&w=800",
     tags: ["FastAPI", "PostgreSQL", "Docker", "Streamlit", "Chart.js", "Python", "ETL"],
-    github: "https://github.com/Syedharis-2004",
+    github:"https://github.com/Syedharis-2004/Crypto-SMIT-Hackathon",
     demo: "https://crypto-smit-hackathon-dun.vercel.app/",
   },
   {
